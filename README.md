@@ -48,7 +48,7 @@ Pour chaque implémentation :
 - **Liste triée :** Éléments maintenus en ordre croissant .
 
 ---
-## 📚 Difficultés rencobtrées
+## 📚 Difficultés rencontrées
 - **Gestion mémoire :** Toujours libérer la mémoire allouée.  
 - **Pointeurs NULL :** Vérifier systématiquement les pointeurs.    
 - **Listes circulaires :** Bien gérer les liaisons circulaires pour éviter les boucles infinies.
