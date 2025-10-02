@@ -2,10 +2,6 @@
 
 **Date :** Jeudi 25 septembre 2025
 
-## NOMS DES MEMBRES DU GROUPE
-
-
-
 ## 📋 Description
 L’objectif  de ce TP est d’implémenter  au travers des differentes formes de **liste chaînée**(simplement chainee, doublement chainee,simplement chainee circulaire, doublement chainee circulaire) differentes opérations  élémentaires telles que: **l’insertion**, **la suppression** et **l’affichage**.
 
@@ -17,7 +13,7 @@ L’objectif  de ce TP est d’implémenter  au travers des differentes formes d
 - Comprendre les différences entre **listes simplement** et **doublement chaînées**.  
 - Implémenter des opérations sur les **listes circulaires**.  
 - Gérer correctement l’allocation et la libération de mémoire.
-- Gérer les effets de Bohr
+- Gérer les effets de Bohr(Cas particulier)
 
 
 ##  Structures de Données Implémentées
@@ -44,30 +40,35 @@ Pour chaque implémentation :
 
 ---
 
-## 🔍 Points d’Attention
-
-- **Gestion mémoire :** Toujours libérer la mémoire allouée.  
-- **Pointeurs NULL :** Vérifier systématiquement les pointeurs.  
-- **Cas limites :** Traiter les listes vides et celles avec un seul élément.  
-- **Listes circulaires :** Bien gérer les liaisons circulaires pour éviter les boucles infinies.
-
----
-
 ## 📚 Concepts Clés
 
 - **Liste simplement chaînée :** Un seul pointeur vers l’élément suivant.  
 - **Liste doublement chaînée :** Deux pointeurs (précédent et suivant).  
 - **Liste circulaire :** Le dernier élément pointe vers le premier.  
-- **Liste triée :** Éléments maintenus en ordre croissant ou décroissant.
+- **Liste triée :** Éléments maintenus en ordre croissant .
 
 ---
 ## 📚 Difficultés rencobtrées
-- **Liste chainee circulaire ** Beaucoup d'erreur de segmentation qui etait du a la mauvaise allocation de la memoire et le manipulation des pinteurs
+- **Gestion mémoire :** Toujours libérer la mémoire allouée.  
+- **Pointeurs NULL :** Vérifier systématiquement les pointeurs.    
+- **Listes circulaires :** Bien gérer les liaisons circulaires pour éviter les boucles infinies.
+-  Beaucoup d'erreur de segmentation qui etait du a la mauvaise allocation de la memoire et le manipulation des pointeurs.
 
-## 👨‍💻 Auteur
+## Auteurs/contributeurs
+|Fichier | Auteurs | 
+|-----------|---------|
+| `supp_occ.c`| # NONGNI TEMGOUA CHANNELLE BRYANA ,# SIBEUFO NGUEMBU JORDANELLE|
+| `prog2.c` | # NGUEAGHO KRYS DE HUGO, # POLA WACHIE ÉLISABETH REINE |
+| `prog3.c` | # NONGNI TEMGOUA CHANNELLE BRYANA ,# MELONG TSAWA ROSVEL, # SIBEUFO NGUEMBU JORDANELLE|
+| `prog4.c` |# NGUEAGHO KRYS DE HUGO, # POLA WACHIE ÉLISABETH REINE |
+| `prog5.c` |# MELONG TSAWA ROSVEL, # NGUIMDJOU DEFORD DAINA ANASTASIE| 
+|-----------|---------|
 
-Exercice réalisé dans le cadre du cours INF 231 – Structures de Données.
-
----
-
+## Membres du groupe
+### NONGNI TEMGOUA CHANNELLE BRYANA
+### NGUEAGHO KRYS DE HUGO
+### MELONG TSAWA ROSVEL
+### SIBEUFO NGUEMBU JORDANELLE
+### POLA WACHIE ÉLISABETH REINE
+### NGUIMDJOU DEFORD DAINA ANASTASIE 
 
